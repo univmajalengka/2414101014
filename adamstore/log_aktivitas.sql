@@ -1,0 +1,6 @@
+CREATE TABLE log_aktivitas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    admin VARCHAR(50) NOT NULL,
+    aksi VARCHAR(255) NOT NULL,
+    waktu DATETIME NOT NULL
+);

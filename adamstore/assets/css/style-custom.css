@@ -1,0 +1,35 @@
+/* === GLASSMORPHISM EFFECT === */
+.glass {
+	background: rgba(255,255,255,0.18) !important;
+	box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+	backdrop-filter: blur(8px) saturate(1.2);
+	-webkit-backdrop-filter: blur(8px) saturate(1.2);
+	border-radius: 18px;
+	border: 1px solid rgba(255,255,255,0.28);
+}
+.glass-dark {
+	background: rgba(24,28,36,0.38) !important;
+	box-shadow: 0 8px 32px 0 rgba(31,38,135,0.22);
+	backdrop-filter: blur(10px) saturate(1.2);
+	-webkit-backdrop-filter: blur(10px) saturate(1.2);
+	border-radius: 18px;
+	border: 1px solid rgba(60,60,80,0.28);
+}
+
+/* Card glassmorphism */
+.card.glass, .modal-content.glass {
+	background: rgba(255,255,255,0.18) !important;
+	box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+	backdrop-filter: blur(8px) saturate(1.2);
+	-webkit-backdrop-filter: blur(8px) saturate(1.2);
+	border-radius: 18px;
+	border: 1px solid rgba(255,255,255,0.28);
+}
+/* Navbar glassmorphism */
+.navbar.glass {
+	background: rgba(255,255,255,0.22) !important;
+	box-shadow: 0 4px 24px 0 rgba(31,38,135,0.10);
+	backdrop-filter: blur(10px) saturate(1.2);
+	-webkit-backdrop-filter: blur(10px) saturate(1.2);
+	border-bottom: 1px solid rgba(255,255,255,0.18);
+}
